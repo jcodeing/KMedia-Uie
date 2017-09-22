@@ -16,8 +16,8 @@
 package com.jcodeing.kmedia.widget;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
-import android.widget.TextView;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Locale;
@@ -25,7 +25,7 @@ import java.util.Locale;
 /**
  * Time Text View <p /> Simple show time change.
  */
-public class TimeTextView extends TextView {
+public class TimeTextView extends AppCompatTextView {
 
   public TimeTextView(Context context) {
     this(context, null);
