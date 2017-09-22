@@ -16,15 +16,15 @@
 package com.jcodeing.kmedia.widget;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.TextView;
 
 /**
  * Drag Text View
  */
-public class DragTextView extends TextView {
+public class DragTextView extends AppCompatTextView {
 
   public DragTextView(Context context) {
     this(context, null);
