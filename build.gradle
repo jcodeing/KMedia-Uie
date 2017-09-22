@@ -48,8 +48,6 @@ ext {
     k_name = 'kmedia-uie'
     k_desc = 'The KMedia framwork ui extension module.'
     k_version = 'r1.0.10'
-    k_version_desc = 'KMedia Uie Release 1.0.10'
-    k_vcs_url = 'https://github.com/jcodeing/KMedia-Uie.git'
     k_web_site_url = 'https://github.com/jcodeing/KMedia-Uie'
 }
 apply from: '../publish.gradle'
