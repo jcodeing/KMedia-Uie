@@ -22,14 +22,14 @@ import android.content.IntentFilter;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 import com.jcodeing.kmedia.uie.R;
 
 /**
  * Battery View <p /> Simple draw battery change.
  */
-public class BatteryView extends ImageView {
+public class BatteryView extends AppCompatImageView {
 
   private final int WARNING_LEVEL = 17;
   // =========@View@=========
