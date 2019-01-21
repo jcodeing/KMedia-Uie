@@ -15,8 +15,8 @@
  */
 package com.jcodeing.kmedia.adapter;
 
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.RecyclerView.ViewHolder;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 import com.jcodeing.kmedia.assist.C;
 import com.jcodeing.kmedia.definition.IMediaItem;
 import com.jcodeing.kmedia.definition.IMediaQueue;
